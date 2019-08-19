@@ -5,7 +5,7 @@ elsif array.length == 2
   array.join(" and ")
 elsif array.length == 3
  string = array.join(", ")
-  array[-2] << " and "
+  string[-2] << " and "
   
 end
 end
